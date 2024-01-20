@@ -1,0 +1,19 @@
+
+\begin{table*}
+    \centering
+    \begin{tabular}{cccccccc}
+        \toprule
+        Method & R1@0.5 & R1@0.7 & mAP@0.5 & mAP@0.75 & Avg & HD\_MAP & HD\_HIT@1  \\
+        \midrule
+        Moment-DETR & 52.89 & 33.02 & 54.82 &  29.40&  30.73& 35.69 & 55.60 \\
+        UMT  & 56.23 & 41.18 & 53.83 & 37.01 & 36.12 & 38.18 & 59.99 \\
+        MH-DETR & 60.05 & 42.48 & 60.75 & 38.13 & 38.38& 38.22 & 60.51 \\        
+        QD-DETR & 62.40 & 44.98 &  62.52 &  39.88& 39.86 & 38.94 & 62.40 \\
+        UniVGT & 59.74 & 0 & 0 & 0 & 36.13 & 38.83 & 61.81 \\
+        EaTR & 59.03 & 43.87 & 60.38 & 38.96 & 38.67 & 35.72 & 55.68 \\
+        OurEaTR & 0 & 0 & 0 & 0  & 0  & 0 & 0 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Experimental results on QVHighlights val split. HD represents highlight detection}
+    \label{tab:1}
+\end{table*}
